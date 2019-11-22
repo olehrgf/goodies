@@ -14,7 +14,7 @@
 export AWS_ACCESS_KEY_ID=<AWS S3 ACCESS KEY>
 export AWS_SECRET_ACCESS_KEY=<AWS S3 SECRET KEY>
 
-sh create-emr-cluster-local-conf.sh \
+sh create-emr-cluster.sh \
     --region us-west-2 \
     --ssh-key <NAME OF TH SSH KEY CREATE ON STEP 3> \
     --path-to-config <PATH TO CLUSTER CONFIG>
