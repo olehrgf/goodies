@@ -1,0 +1,7 @@
+[
+  {
+    "SubnetId": "$subnetId",
+    "KeyName": "",
+    "InstanceProfile": "EMR_EC2_DefaultRole"
+  }
+]
